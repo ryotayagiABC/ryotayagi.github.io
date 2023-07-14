@@ -85,7 +85,7 @@
 @media (max-width: 767px) {
     body {
       font-family: Arial, sans-serif;
-      max-width: 400px;
+      max-width: 768px;
       margin: 0 auto;
     }
   
@@ -136,6 +136,10 @@
       margin: 10px;
       margin-top: 20px;
       margin-bottom: 20px;
+    }
+    
+    p {
+      line-height: 1.5;
     }
   
     .profile-picture {
