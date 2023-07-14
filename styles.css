@@ -1,4 +1,4 @@
-body {
+  body {
     font-family: Arial, sans-serif;
     max-width: 768px;
     margin: 0 auto;
@@ -85,7 +85,7 @@ body {
 @media (max-width: 767px) {
     body {
       font-family: Arial, sans-serif;
-      max-width: 768px;
+      max-width: 400px;
       margin: 0 auto;
     }
   
