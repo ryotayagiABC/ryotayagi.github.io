@@ -81,69 +81,72 @@ body {
   }
 
 
-    @media (max-width: 767px) {
-      header {
-        background-color: #f2f2f2;
-        /*padding: 10px;*/
-        text-align: center;
-        margin: 0 auto;
-      }
+    
+  /* Styles for smartphones */
+  @media (max-width: 767px) {
+    .banner {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
 
-      header h1 {
-        font-size: 30px;
-      }
+    .banner h1 {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
 
-      .banner-menu {
-        background-color: #333;
-        color: #fff;
-        padding: 10px;
-        text-align: center;
-      }
+    .banner-menu {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
 
-      .banner-menu ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
+    .banner-menu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
 
-      .banner-menu ul li {
-        display: block;
-        margin-bottom: 10px;
-      }
+    .banner-menu li {
+      display: block;
+      margin-bottom: 10px;
+    }
 
-      .banner-menu a {
-        color: #fff;
-        text-decoration: none;
-      }
+    .banner-menu a {
+      color: #fff;
+      text-decoration: none;
+    }
 
-      .banner-menu a:hover {
-        background-color: #b3d7ff;
-      }
+    .banner-menu a:hover {
+      background-color: #b3d7ff;
+    }
 
-  nav {
-    padding: 5px;
-  }
-  
-  nav ul li {
-    margin-right: 10px;
-  }
-  
-  main {
-    margin: 10px;
-  }
-  
-  .profile-picture {
-    width: 150px;
-    height: 150px;
-  }
-  
-  .social-icons a img {
-    width: 60px;
-    height: 60px;
-  }
-  
-  .pdf-icons a img {
-    width: 30px;
-    height: 30px;
-  }
+    nav {
+      padding: 5px;
+    }
+    
+    nav ul li {
+      margin-right: 10px;
+    }
+    
+    main {
+      margin: 10px;
+    }
+    
+    .profile-picture {
+      width: 150px;
+      height: 150px;
+    }
+    
+    .social-icons a img {
+      width: 60px;
+      height: 60px;
+    }
+    
+    .pdf-icons a img {
+      width: 30px;
+      height: 30px;
+    }
 }
