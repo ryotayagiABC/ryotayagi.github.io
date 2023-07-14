@@ -81,8 +81,14 @@ body {
   }
 
 
-   /* Styles for smartphones */
-  @media (max-width: 767px) {
+  /* Styles for smartphones */
+@media (max-width: 767px) {
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 768px;
+      margin: 0 auto;
+    }
+  
     .banner-menu {
       background-color: #333;
       color: #fff;
@@ -90,6 +96,8 @@ body {
       text-align: center;
       margin-left: 20px;
       margin-right: 20px;
+      margin-top: 20px; /* Added margin */
+      margin-bottom: 20px; /* Added margin */
     }
   
     .banner-menu ul {
@@ -116,26 +124,31 @@ body {
       padding: 5px;
       margin-left: 20px;
       margin-right: 20px;
+      margin-top: 20px; /* Added margin */
+      margin-bottom: 20px; /* Added margin */
     }
-    
+  
     nav ul li {
       margin-right: 10px;
     }
-    
+  
     main {
       margin: 10px;
+      margin-top: 20px; /* Added margin */
+      margin-bottom: 20px; /* Added margin */
     }
-    
+  
     .profile-picture {
       width: 150px;
       height: 150px;
+      margin-bottom: 20px; /* Added margin */
     }
-    
+  
     .social-icons a img {
       width: 60px;
       height: 60px;
     }
-    
+  
     .pdf-icons a img {
       width: 30px;
       height: 30px;
